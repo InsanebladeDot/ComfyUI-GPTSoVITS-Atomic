@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+
+# 本机安装生成的私有依赖包含大型二进制文件，不纳入普通 Git 仓库。
+private_packages/
+
+# 本地环境、日志与编辑器缓存不应进入公开仓库。
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
